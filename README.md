@@ -46,5 +46,5 @@ gcloud init # choose your project, zone, etc.
 
 # Create credentials
 gcloud auth login
-gcloud auth application-credentials login
+gcloud auth application-default login 
 ```
